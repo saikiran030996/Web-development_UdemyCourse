@@ -8,26 +8,43 @@
 </head>
 
 <body>
+    <button>submit</button>
     <h1>Forms Demo</h1>
-    <form action="/Google">
+    <form action="/tacos">
         <p>
-            <label for="username">Enter a Username:</label>
-            <input id="username" type="text" placeholder="username">
+            <label for="username"> Enter username:</label>
+            <input id="username" type="text" placeholder="username" name="username">
         </p>
         </p>
-        <label for="password">Enter Password:</label>
-        <input id="password" type="text" placeholder="password">
+        <label for="password">Enter password: </label>
+        <input id="password" type="password" placeholder="password">
         </p>
         </p>
-        <label for="color">Enter color:</label>
-        <input id="color" type="color" placeholder="color">
+        <input type="color">
+        </p>
+        <label for="number">Enter number: </label>
+        <input id="number" type="number" placeholder="number">
         </p>
         </p>
-        <label for="number">Enter a number</label>
-        <input id="number" placeholder="number">
-        <p>
-            <button>Submit</button>
+        <button>login through facebook</button>
     </form>
+    <button>Button that dont submit the form</button>
+    <h3>Search google</h3>
+    <p>
+    <form action="http://www.google.com/search">
+        <input type="text" name="q">
+        <button>search google</button>
+    </form>
+    </p>
+    </p>
+    <h3>Search Youtube</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>search youtube</button>
+    </form>
+    </p>
+    <!-- Button outside the form doesnt submit the form while the button inside the form will submit the until it is
+    explicitly type changed -->
 </body>
 
 </html>
