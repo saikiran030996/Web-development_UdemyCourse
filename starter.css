@@ -3,7 +3,7 @@
 } */
 
 body {
-    color: #E6B9DE;
+    color: black;
 }
 
 button {
@@ -13,10 +13,22 @@ button {
 
 h1,
 h2 {
-    color: magenta;
+    color: black;
 }
 
 #signup {
     background-color: blanchedalmond;
     color: #4942E4;
+}
+
+.tag {
+    background-color: red;
+}
+
+a {
+    color: blue;
+}
+
+footer a {
+    color: red;
 }
