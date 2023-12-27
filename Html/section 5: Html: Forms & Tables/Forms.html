@@ -14,11 +14,11 @@
         <button type="button">Please dont Submit</button>
         <p>
             <label for="username">Enter a Username:</label>
-            <input id="username" type="text" placeholder="username">
+            <input id="username" type="text" placeholder="username" name="username">
         </p>
         </p>
         <label for="password">Enter a password:</label>
-        <input id="password" type="password" placeholder="password">
+        <input id="password" type="password" placeholder="password" name="password">
         </p>
         <button>In the middle</button>
         <p>
@@ -27,11 +27,18 @@
         </p>
         </p>
         <label for="number">Enter a number:</label>
-        <input id="number" type="number" placeholder="enter a number">
+        <input id="number" type="number" placeholder="enter a number" name="number">
         </p>
         <button>Submit</button>
     </form>
-
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q">
+        <button>search reddit</button>
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search google</button>
+    </form>
 </body>
 
 </html>
