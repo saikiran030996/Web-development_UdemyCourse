@@ -24,3 +24,19 @@ h2 {
 .tag {
     background-color: red;
 }
+
+.post a {
+    color: red;
+}
+
+footer a {
+    color: orange;
+}
+
+input+button {
+    background-color: red;
+}
+
+h2+button {
+    background-color: magenta;
+}
