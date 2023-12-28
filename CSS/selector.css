@@ -1,0 +1,22 @@
+/* * {
+    background-color: white;
+    color: aquamarine
+} */
+
+button {
+    /* color: black; */
+    font-size: 30px;
+    background-color: aqua;
+}
+
+h1,
+h2 {
+    color: blue;
+}
+
+/* #nameoftheid { property:specification} */
+
+#signup {
+    color: red;
+    background-color: white;
+}
