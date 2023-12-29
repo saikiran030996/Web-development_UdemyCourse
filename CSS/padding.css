@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+}
+
+h1 {
+    background-color: blue;
+    width: 100px;
+    padding: 100px;
+    margin: 0;
+}
+
+#one {
+
+    background-color: violet;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 5%;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#two {
+    background-color: brown;
+    border-color: blueviolet;
+    border-width: 3px;
+    border-style: dashed;
+    box-sizing: border-box;
+}
+
+#three {
+    background-color: aqua;
+    border: medium dashed green;
+    box-sizing: border-box;
+}
+
+/* overall padding */
+/* button {
+    padding: 10px;
+} */
+
+/* padding with two different values(vertical|horizontal) */
+
+button {
+    padding: 10px 15px;
+}
