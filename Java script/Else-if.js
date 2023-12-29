@@ -35,16 +35,16 @@
 
 // if elseif else statement
 
-const dayOfWeek = "Tuesday";
+const dayOfWeek = prompt("Enter a day").toLowerCase();
 
-if (dayOfWeek === "Monday") {
+if (dayOfWeek === "monday") {
     console.log("Ughh I hate Mondays")
 }
-else if (dayOfWeek === "Saturday") {
+else if (dayOfWeek === "saturday") {
     console.log("Yay I love Saturdays")
 }
 
-else if (dayOfWeek === "Friday") {
+else if (dayOfWeek === "friday") {
     console.log("Fridays are decent, especially after work")
 }
 
