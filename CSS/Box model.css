@@ -1,18 +1,33 @@
 div {
     width: 200px;
-    height: 100px;
+    height: 200px;
+    /* background-color: red; */
+}
+
+h1 {
     background-color: blue;
+    width: 100px;
 }
 
 #one {
-    background-color: brown;
+    background-color: violet;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 5%;
 }
 
 #two {
-    background-color: bisque;
+    background-color: brown;
+    border-color: blueviolet;
+    border-width: 3px;
+    border-style: dashed;
+    box-sizing: border-box;
 }
 
-
 #three {
-    background-color: blueviolet;
+    background-color: aqua;
+    border: medium dashed green;
+    box-sizing: border-box;
 }
